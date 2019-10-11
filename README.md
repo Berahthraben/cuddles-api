@@ -5,3 +5,8 @@ CuddlesAPI oficial repo
 - More at: http://www.slimframework.com/
 
 ### The API
+- /GET: gets the file previously saved.
+- /POST: save a json file.
+
+### Run for development
+php -S localhost:9000 -t public public/index.php index.php
